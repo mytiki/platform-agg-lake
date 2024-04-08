@@ -1,0 +1,10 @@
+# IntelliJ
+.idea
+
+# AWS
+.aws-sam
+packaged.yaml
+packaged.yml
+
+# Fuckin Macs
+.DS_Store

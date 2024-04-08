@@ -1,0 +1,17 @@
+version = 0.1
+
+[default.global.parameters]
+stack_name = "core-lake"
+s3_bucket = "mytiki-sam-deploy-sandbox-mike"
+s3_prefix = "core/lake"
+region = "us-east-2"
+
+[default.deploy.parameters]
+confirm_changeset = false
+capabilities = [
+    "CAPABILITY_IAM",
+    "CAPABILITY_AUTO_EXPAND",
+    "CAPABILITY_NAMED_IAM"
+]
+image_repositories = []
+parameter_overrides = []
