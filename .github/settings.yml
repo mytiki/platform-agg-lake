@@ -6,7 +6,7 @@ repository:
   name: platform-agg-lake
   description: Deploy a data lake for use with mytiki.com
   homepage: https://mytiki.com/platform/aggregation
-  topics: aggregation, catalog, metadata
+  topics: aggregation, lake, iceberg
   private: false
   has_projects: true
   has_discussions: false
